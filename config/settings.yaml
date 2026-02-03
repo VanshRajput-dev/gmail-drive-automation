@@ -1,0 +1,21 @@
+gmail:
+  allowed_senders:
+    - saravanaselvarathnampo@gmail.com
+
+  search_query: "has:attachment"
+
+paths:
+  temp_download: "temp/downloads"
+  quarantine: "quarantine/infected_files"
+  logs: "logs"
+
+drive:
+  root_folder: "Sarvana"
+
+security:
+  antivirus:
+    engine: "clamav"
+    enabled: true
+
+processing:
+  gmail_label_processed: "PROCESSED_BY_AUTOMATION"
