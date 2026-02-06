@@ -1,6 +1,8 @@
 gmail:
   allowed_senders:
     - saravanaselvarathnampo@gmail.com
+    - "ssrgrndetail@gmail.com"
+    - "ssrdebitnote@gmail.com"
 
   search_query: "has:attachment"
 
